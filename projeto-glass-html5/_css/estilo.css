@@ -100,7 +100,6 @@ nav#menu ul{
     left: 300px;
 }
 
-
 nav#menu li{
     display: inline-block; /*deixa todos os itens na mesma linha*/
     background-color: #dddddd;
@@ -132,7 +131,7 @@ section#corpo{
     display: block; /*faz com que a sessão seja mostrada em bloco*/
     width: 500px;
     float: left; /*faz com que a sessão fique ao lado esquerdo*/
-    border-right: 1px solid #606060;
+    border-right: 1px solid #606060; /*borda a direta da sessão*/
     padding-right: 15px;
 }
 
@@ -144,7 +143,7 @@ aside#lateral{
 
 footer#rodape {
     clear: both; /*faz com que o rodape seja mostrado fora da divisao*/
-    border-top: 1px solid #606060;
+    border-top: 1px solid #606060; /*borda ao topo do rodapé*/
 }
 
 footer#rodape p {
