@@ -64,9 +64,24 @@ nav#menu li{
     background-color: #dddddd;
     padding: 10px; /*aumentando o tamanho do espaco dentro do objeto*/
     margin: 2px; /*espaçamento entre os botões*/
+    transition: background-color 0.5s; /*tempo de transição do efeito hover*/
 }
+
+nav#menu li:hover{ /*efeito ao passar o mouse por cima*/
+    background-color: #606060;
+}
+
 
 nav#menu h1 {
     display: none; /*escondendo o menu principal*/
 }
 
+nav#menu a {
+    color: black;
+    text-decoration: none; /*tira os efeitos sobre o texto. Ex: sublinhado*/
+}
+
+nav#menu a:hover { /*efeito ao passar o mouse por cima*/
+    color: white;
+    text-decoration: underline; /*adiciona o efeito de sublinhar*/
+}
