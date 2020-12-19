@@ -55,7 +55,7 @@ header#cabecalho h2 { /*editando o subtitulo do cabeçalho*/
 /*Formatação de imagens com legendas*/
 
 div#ft1{ /*Div criada para correção da borda da foto do projeto inicial*/
-    width: 600px;    
+    width: 400px;    
 }
 
 figure.foto-legenda {
@@ -126,4 +126,27 @@ nav#menu a {
 nav#menu a:hover { /*efeito ao passar o mouse por cima*/
     color: white;
     text-decoration: underline; /*adiciona o efeito de sublinhar*/
+}
+
+section#corpo{
+    display: block; /*faz com que a sessão seja mostrada em bloco*/
+    width: 500px;
+    float: left; /*faz com que a sessão fique ao lado esquerdo*/
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+aside#lateral{
+    display: block; /*faz com que a lateral seja mostrada em bloco*/
+    width: 350px;
+    float: right;  /*faz com que a lateral fique ao lado direito*/
+}
+
+footer#rodape {
+    clear: both; /*faz com que o rodape seja mostrado fora da divisao*/
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
 }
