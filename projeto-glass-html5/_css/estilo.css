@@ -43,3 +43,30 @@ figure.foto-legenda figcaption {
 figure.foto-legenda:hover figcaption { /*cria um evento ao passar o mouse sobre a imagem*/
     opacity: 1; /*faz com que a legenda volte a ser visivel.*/
 }
+
+/*Formatação do Menu*/
+
+nav#menu{
+    display: block; /*tranforma o menu em um blooo*/
+}
+
+nav#menu ul{
+    list-style: none; /*tira os pontos da lista*/
+    text-transform: uppercase; /*faz com que as letras passem para maisculo*/
+    position: absolute; /*determina uma posição absoluta*/
+    top: -20px;
+    left: 300px;
+}
+
+
+nav#menu li{
+    display: inline-block; /*deixa todos os itens na mesma linha*/
+    background-color: #dddddd;
+    padding: 10px; /*aumentando o tamanho do espaco dentro do objeto*/
+    margin: 2px; /*espaçamento entre os botões*/
+}
+
+nav#menu h1 {
+    display: none; /*escondendo o menu principal*/
+}
+
