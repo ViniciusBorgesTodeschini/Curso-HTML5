@@ -17,6 +17,16 @@ p {
     text-indent: 50px;
 }
 
+header#cabecalho img#icone{ /*posicionando o icone*/
+    position: absolute;
+    left: 750px;
+    top: 40px;
+}
+
+header#cabecalho {
+    
+}
+
 /*Formatação de imagens com legendas*/
 
 div#ft1{ /*Div criada para correção da borda da foto do projeto inicial*/
