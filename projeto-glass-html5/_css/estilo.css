@@ -159,6 +159,8 @@ table#tabelaespec{ /*formaando a tabela*/
 
 table#tabelaespec td{ /*formatando as cedulas da tabela*/
     border: 1px solid #606060;
+    padding: 10px;
+    vertical-align: middle;
 }
 
 aside#lateral{
