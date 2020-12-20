@@ -23,10 +23,16 @@ p {
     text-indent: 50px;
 }
 
+section#seccab{ /*section criada para corrigir o problema de flutuação do icone*/
+    position: absolute;
+    display: block;
+    float: right;
+    top: 80px;
+}
+
 header#cabecalho img#icone{ /*posicionando o icone*/
     position: absolute;
-    left: 750px;
-    top: 80px;
+    left: 700px;
 }
 
 header#cabecalho {
@@ -88,6 +94,14 @@ figure.foto-legenda:hover figcaption { /*cria um evento ao passar o mouse sobre 
 
 /*Formatação do Menu*/
 
+section#secmen{ /*section criada para corrigir o problema de flutuação do menu*/
+    width: 900px;
+    position: absolute;
+    top: -20px;
+    right: auto;
+    left: auto;
+}
+
 nav#menu{
     display: block; /*tranforma o menu em um blooo*/
 }
@@ -96,8 +110,8 @@ nav#menu ul{
     list-style: none; /*tira os pontos da lista*/
     text-transform: uppercase; /*faz com que as letras passem para maisculo*/
     position: absolute; /*determina uma posição absoluta*/
-    top: -20px;
-    left: 300px;
+    top: 0px;
+    left: 270px; /*essa medida é compara a section do menu e não mais a interface*/
 }
 
 nav#menu li{
