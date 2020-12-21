@@ -122,7 +122,7 @@ nav#menu ul{
     text-transform: uppercase; /*faz com que as letras passem para maisculo*/
     position: absolute; /*determina uma posição absoluta*/
     top: 0px;
-    left: 270px; /*essa medida é compara a section do menu e não mais a interface*/
+    left: 250px; /*essa medida é compara a section do menu e não mais a interface*/
 }
 
 nav#menu li{
