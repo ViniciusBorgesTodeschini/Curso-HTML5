@@ -39,7 +39,7 @@
                         <h3 class="direita">Atualizado em 01/Maio/2013</h3>
                     </header>
                     
-                    <form action="">
+                    <form method="POST" id="fContato" action="mailto: exemplo4@hotmail.com">
                         <fieldset id="usuario"><legend>Identificação do Usuário</legend> 
                             <p><label for="cNome">Nome:</label>  <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"></p> 
                             <p><label for="cSenha">Senha:</label>  <input type="password" name="tSenha" id="cSenha" size="10" maxlength="10" placeholder="Max 10 digitos"></p> 
@@ -53,21 +53,36 @@
 
                         <fieldset id="endereco"> <legend>Endereço do Usuário</legend> 
                             <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="13" maxlength="20" placeholder="Rua, Av, Trav, ..."></p> 
-                            <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="99999"></p>
-                            <p><label for="">Estado:</label></p>
-                            <p><label for="">Cidade:</label></p>
+                            <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="99999" placeholder="00"></p>
+                            <p><label for="">Estado:</label>
+                                <select name="tEst" id="cEst">
+                                    <optgroup label="Região Sudeste">
+                                        <option value="SP">SP</option>
+                                    </optgroup>
+                                    <optgroup label="Região Sul">
+                                        <option value="PR">PR</option>
+                                        <option value="SC" selected>SC</option> 
+                                        <option value="RS">RS</option>
+                                    </optgroup>
+                                </select></p>
+                            <p><label for="">Cidade:</label><input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidades"></p>
+                            <datalist id="cidades">
+                                <option value="Içara"></option>
+                                <option value="Criciuma"></option>
+                                <option value="Nova Veneza"></option>
+                            </datalist>
                         </fieldset>
 
                         <fieldset id="mensagem"><legend>Mensagem do Usuário</legend> 
-                            Grau de Urgência:
-                            Mensagem:
+                            <p><label for="cUrg">Grau de Urgência:</label></p> 
+                            <p><label for="cMsg">Mensagem:</label></p>
                         </fieldset>  
 
                         <fieldset id="pedido"> <legend>Quero um Google Glass</legend>
-                            Gostaria de adquirir um Google Glass quando disponível
-                            Cor:
-                            Quantidade:
-                            Preço Total: R$
+                            <p><label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+                            <p><label for="cCor">Cor:</label></p>
+                            <p><label for="cQts">Quantidade:</label></p>
+                            <p><label for="cTot">Preço Total: R$</label></p>
                         </fieldset> 
 [BOTÃO ENVIAR]
                     </form>
