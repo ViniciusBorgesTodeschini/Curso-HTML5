@@ -16,6 +16,10 @@ input:hover, textarea:hover {
     background-color: #dddddd;
 }
 
+input#cEnviar {
+    margin-left: 230px;
+}
+
 textarea {
     margin-left: 50px;
     margin-top: 10px;
